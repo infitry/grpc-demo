@@ -1,8 +1,7 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "org.chb.examples.lib";
-option java_outer_classname = "HelloWorldProto";
+package com.grpc.server.simple;
 
 service Simple {
   rpc SayHello (HelloRequest) returns (HelloReply) {
